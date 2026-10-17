@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Discover Curely Healthcare's medical services, meet our team, and contact us about appointments."
+    />
+
+    <meta name="theme-color" content="#246bfd" />
+
+    <title>Curely Healthcare | Modern Medical Services</title>
+
+    <link rel="stylesheet" href="health.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="images/logo.png" />
+  </head>
+
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#" aria-label="Curely home">
+          <img
+            src="https://i.pinimg.com/736x/25/dc/47/25dc4724f96ecead1872f71ec2b4c57d.jpg"
+            alt="Curely logo"
+          />
+          <span class="logo-title">Curely</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="nav-links"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button
+          id="theme-toggle"
+          class="theme-btn"
+          type="button"
+          aria-label="Switch to dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+
+        <a href="#contact" class="nav-btn">Book Appointment</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero hidden" aria-labelledby="hero-title">
+        <div class="hero-text">
+          <div
+            class="rating"
+            aria-label="Rated 4.9 out of 5 by over 600 reviewers"
+          >
+            ⭐ 4.9 (600+ Reviews)
+          </div>
+
+          <h1 id="hero-title">Your Health Is Our Priority</h1>
+
+          <p>
+            We provide trusted healthcare with experienced doctors, modern
+            facilities and compassionate care for you and your family.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary"> Book Appointment </a>
+
+            <a href="#services" class="btn btn-secondary"> Learn More </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://i.postimg.cc/kXsLLQzc/C37B7281-87D5-4413-9C88-64C8050A83DF.jpg"
+            alt="Doctor featured on the Curely Healthcare homepage"
+            fetchpriority="high"
+          />
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section
+        class="services hidden"
+        id="services"
+        aria-labelledby="services-title"
+      >
+        <span class="badge">CORE SERVICES</span>
+
+        <h2 id="services-title">Healthcare Services For Everyone</h2>
+
+        <div class="service-container">
+          <article class="card">
+            <h3>General Checkup</h3>
+            <p>Routine medical examinations to help you monitor your health.</p>
+          </article>
+
+          <article class="card">
+            <h3>Dental Care</h3>
+            <p>Dental consultations and treatments to support oral health.</p>
+          </article>
+
+          <article class="card">
+            <h3>Emergency Care</h3>
+            <p>Information about emergency medical assistance when needed.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about hidden" id="about" aria-labelledby="about-title">
+        <div class="about-image">
+          <img
+            src="https://www.ecowatch.com/wp-content/uploads/2021/10/435437242-origin.jpg"
+            alt="Healthcare-related image illustrating the Curely mission"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="about-text">
+          <span class="badge">ABOUT US</span>
+
+          <h2 id="about-title">Committed To Better Healthcare</h2>
+
+          <p>
+            At Curely, our mission is to make healthcare more accessible and
+            compassionate through professional care and modern technology.
+          </p>
+        </div>
+      </section>
+
+      <!-- Statistics Section -->
+      <section class="stats hidden" aria-label="Healthcare statistics">
+        <div class="stat-box">
+          <h2 class="counter" data-target="500">0</h2>
+          <p>Doctors</p>
+        </div>
+
+        <div class="stat-box">
+          <h2 class="counter" data-target="25000">0</h2>
+          <p>Happy Patients</p>
+        </div>
+
+        <div class="stat-box">
+          <h2 class="counter" data-target="15">0</h2>
+          <p>Years Experience</p>
+        </div>
+
+        <div class="stat-box">
+          <h2 class="counter" data-target="98">0</h2>
+          <p>Success Rate (%)</p>
+        </div>
+      </section>
+
+      <!-- Doctors Section -->
+      <section
+        class="doctors hidden"
+        id="doctors"
+        aria-labelledby="doctors-title"
+      >
+        <span class="badge">OUR TEAM</span>
+
+        <h2 id="doctors-title">Meet Our Doctors</h2>
+
+        <div class="doctor-container">
+          <article class="doctor-card">
+            <img
+              src="https://randomuser.me/api/portraits/women/65.jpg"
+              alt="Portrait representing Dr. Sarah Johnson"
+              loading="lazy"
+            />
+            <h3>Dr. Sarah Johnson</h3>
+            <p>Cardiologist</p>
+          </article>
+
+          <article class="doctor-card">
+            <img
+              src="https://randomuser.me/api/portraits/men/32.jpg"
+              alt="Portrait representing Dr. Michael Smith"
+              loading="lazy"
+            />
+            <h3>Dr. Michael Smith</h3>
+            <p>Neurologist</p>
+          </article>
+
+          <article class="doctor-card">
+            <img
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt="Portrait representing Dr. Emily Brown"
+              loading="lazy"
+            />
+            <h3>Dr. Emily Brown</h3>
+            <p>Dentist</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Appointment Section -->
+      <section
+        class="contact hidden"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <span class="badge">BOOK APPOINTMENT</span>
+
+        <h2 id="contact-title">Book An Appointment</h2>
+
+        <p>Fill in the form to send an appointment enquiry.</p>
+
+        <form id="appointment-form">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            autocomplete="name"
+            required
+          />
+
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            autocomplete="email"
+            required
+          />
+
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            autocomplete="tel"
+            required
+          />
+
+          <label for="message">How can we help you?</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Describe your enquiry"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Submit Appointment Enquiry
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h2>Curely</h2>
+      <p>Healthcare with compassion and excellence.</p>
+      <p>
+        © <span data-current-year>2026</span> Curely Healthcare. All rights
+        reserved.
+      </p>
+    </footer>
+
+    <script src="health.js"></script>
+  </body>
+</html>
